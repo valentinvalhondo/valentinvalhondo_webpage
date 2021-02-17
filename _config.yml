@@ -1,12 +1,15 @@
 # Site settings
-title:
-email:
+title: Valentin Valhondo
+email: valentinvalhondo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://valentinvalhondo.com" # the base hostname & protocol for your site
+
+github_username: valentinvalhondo
 
 # Build settings
 markdown: kramdown
+
+# Google Analytics
+google_analytics: G-VKQZZ7YE66
