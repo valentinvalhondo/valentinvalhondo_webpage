@@ -1,8 +1,8 @@
 # Site settings
 title: Valentin Valhondo
 email: valentinvalhondo@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-Msc Aerospace Engineer
+description: >- # this means to ignore newlines until "baseurl:"
+  Msc Aerospace Engineer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://valentinvalhondo.com" # the base hostname & protocol for your site
 
