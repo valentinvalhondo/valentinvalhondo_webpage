@@ -2,11 +2,14 @@
 title: Valentin Valhondo
 email: valentinvalhondo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-
+Msc Aerospace Engineer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://valentinvalhondo.com" # the base hostname & protocol for your site
 
+# Social network information
+instagram_username: valhondeando
 github_username: valentinvalhondo
+linkedin_username: valentinvalhondo
 
 # Build settings
 markdown: kramdown
