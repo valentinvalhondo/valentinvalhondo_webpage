@@ -34,5 +34,9 @@
     {% if site.google_analytics and jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
+    
+    <!-- Jekyll plugins     -->
+    {% feed_meta %}
+    {% seo %}
 
 </head>
