@@ -18,3 +18,8 @@ markdown: kramdown
 
 # Google Analytics
 google_analytics: G-FLG7V2JPSG
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
