@@ -68,7 +68,6 @@ aside {
 }
 
 // Navigation
-
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
@@ -85,9 +84,9 @@ aside {
         }
     }
     .nav {
-        > li {
-            > a,
-            > a:focus {
+        >li {
+            >a,
+            >a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
@@ -97,8 +96,8 @@ aside {
                 }
             }
             &.active {
-                > a,
-                > a:focus {
+                >a,
+                >a:focus {
                     color: $theme-primary !important;
                     background-color: transparent;
                     &:hover {
@@ -118,8 +117,8 @@ aside {
                 color: white;
             }
         }
-        .nav > li > a,
-        .nav > li > a:focus {
+        .nav>li>a,
+        .nav>li>a:focus {
             color: rgba(white, .7);
             &:hover {
                 color: white;
@@ -136,8 +135,8 @@ aside {
                     color: darken($theme-primary, 10%);
                 }
             }
-            .nav > li > a,
-            .nav > li > a:focus {
+            .nav>li>a,
+            .nav>li>a:focus {
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -148,14 +147,13 @@ aside {
 }
 
 // Homepage Header
-
 header {
     position: relative;
     width: 100%;
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header_valhondo.jpg');
+    background-image: url('/assets/images/header_valhondo.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -206,7 +204,6 @@ header {
 }
 
 // Sections
-
 .section-heading {
     margin-top: 0;
 }
@@ -231,7 +228,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background: rgba( $theme-primary, .9);
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -289,18 +286,22 @@ header {
     color: $theme-primary;
 }
 
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+.no-gutter>[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant($theme-dark,
+    white,
+    white);
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant(white,
+    $theme-primary,
+    $theme-primary);
 }
 
 .btn {
@@ -348,4 +349,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
