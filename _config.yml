@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://valentinvalhondo.com" # the base hostname & protocol for your site
 web_title: Valentin Valhondo Msc.
-web_favicon: "/img/favicon_bulb.ico?"
+web_favicon: "/assets/images/favicon_bulb.ico?"
 
 # Social network information
 instagram_username: valhondeando
